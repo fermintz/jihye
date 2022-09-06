@@ -1,0 +1,39 @@
+.photo_zone{
+  padding:150px 0;
+  text-align:center;
+  height:auto;
+
+  .inner{
+    width:1200px;
+    margin:0 auto;
+  }
+
+  h4{
+    margin-bottom:150px;
+    letter-spacing: 20px;
+  }
+
+  .photos{
+    width:100%;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .photo{
+    position: relative;
+    width:300px;
+    height:600px;
+    background:#e2e2e2;
+    border-radius:30px;
+  }
+  .photo1{
+    left:50%;
+    transform: translateX(-50%);
+  }
+  .photo2{
+    left:50%;
+    top:150px;
+    transform: translateX(300px);
+  }
+}
